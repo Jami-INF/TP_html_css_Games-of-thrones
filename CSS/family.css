@@ -1,0 +1,30 @@
+@import 'communCSS.css';
+
+h2{/*titre article souligné speciale*/
+	font-family: Verdana;
+	font-weight: bold;
+	text-align: center;
+	color: #2D2A2A;
+	text-decoration : underline;
+}
+
+table{/*tableau galerie*/
+  border-collapse: collapse
+}
+
+td{ /*tableau*/
+  border: 1px solid black;
+  padding: 10px;
+}
+
+
+description {
+	display: flex;
+	font-family: Verdana;
+	font-weight: bold;
+	color: #2D2A2A;
+	height: 70%;
+
+}
+
+

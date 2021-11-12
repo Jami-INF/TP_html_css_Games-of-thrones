@@ -1,0 +1,50 @@
+@import 'communCSS.css';
+
+h2{/*titre article souligné speciale*/
+	font-family: Verdana;
+	font-weight: bold;
+	text-align: center;
+	color: #2D2A2A;
+	text-decoration : underline;
+}
+Titre{
+	font-family: Verdana;
+	font-weight: bold;
+	text-align: center;
+	color: #2D2A2A;
+	text-decoration : underline;
+}
+
+table{/*tableau galerie*/
+  border-collapse: collapse
+}
+
+td{ /*titre moyen*/
+  border: 1px solid black;
+  padding: 10px;
+}
+.imager{
+width: 300px; 
+height: 300px; 
+object-fit: cover; 
+}
+
+vid {
+    width:30%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	
+}
+
+
+description {
+	display: flex;
+	flex-direction: column wrap;
+	font-family: Verdana;
+	font-weight: bold;
+	color: #2D2A2A;
+
+}
+
+

@@ -1,0 +1,57 @@
+@import 'communCSS.css';
+
+
+h3{
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 100%;
+	color: #756865;
+	.link { color: #FF0000; }
+}
+articleaside{/*police article*/
+	font-family: Verdana;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 52px;
+	padding-bottom: 50px;
+	font-size: 100%;
+	color: #385D5D;
+	style="background:white
+	text-indent: 40px;	
+	padding-right: 20%;
+}
+
+
+h2{/*titre article souligné speciale*/
+	font-family: Verdana;
+	font-weight: bold;
+	text-align: center;
+	color: #2D2A2A;
+	text-decoration : underline;
+}
+
+
+aside {/*menue coté*/
+	/*
+    width: 15%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    */
+    
+    
+    display: flex;
+    align-self: flex-end;
+    max-width: 20%;
+    flex-direction: row-reverse;
+    height: 600px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-right: 15px;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    color: #29627e;
+    float: right;
+    border-radius: 10% 30% 50% 70%;;
+}
+
+
+

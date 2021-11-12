@@ -1,0 +1,6 @@
+@media print {
+*{font-size : 14pt ; color : black ; }
+		img,a,pub,description,footer,header {display : none ; }
+		/*table {page-break-inside :avoid; }*/ 
+		/*afficher le tableau sur une page a part*/
+}
